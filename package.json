@@ -4,9 +4,13 @@
     "url": "https://github.com/Sleeping-Bear-Systems/shared-package/issues"
   },
   "description": "",
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.4",
+    "typescript": "^7.0.2"
+  },
   "homepage": "https://github.com/Sleeping-Bear-Systems/shared-package#readme",
   "keywords": [],
-  "main": "index.js",
+  "main": "dist/index.js",
   "name": "@sleepingbear/shared",
   "repository": {
     "type": "git",
@@ -16,12 +20,9 @@
     "biome:check": "biome check .",
     "biome:ci": "biome ci .",
     "biome:fix": "biome check --write .",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",
-  "version": "0.1.0",
-  "devDependencies": {
-    "@biomejs/biome": "^2.6.4",
-    "typescript": "^7.0.2"
-  }
+  "version": "0.1.0"
 }

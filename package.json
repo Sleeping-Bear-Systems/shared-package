@@ -10,7 +10,10 @@
   },
   "homepage": "https://github.com/Sleeping-Bear-Systems/shared-package#readme",
   "keywords": [],
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "main": "dist/index.js",
   "name": "@sleepingbear/shared",
   "repository": {

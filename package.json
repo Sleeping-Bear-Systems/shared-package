@@ -13,6 +13,9 @@
     "url": "git+https://github.com/Sleeping-Bear-Systems/shared-package.git"
   },
   "scripts": {
+    "biome:check": "biome check .",
+    "biome:ci": "biome ci .",
+    "biome:fix": "biome check --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "type": "module",

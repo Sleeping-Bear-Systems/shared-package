@@ -26,3 +26,6 @@ jobs:
 
       - name: Lint & Format
         run: npm run biome:ci
+
+      - name: Prepare
+        run: npm run prepare

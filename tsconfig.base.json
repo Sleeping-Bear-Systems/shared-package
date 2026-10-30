@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "composite": true
+  },
+  "extends": [
+    "@tsconfig/node26/tsconfig.json",
+    "@tsconfig/strictest/tsconfig.json"
+  ]
+}

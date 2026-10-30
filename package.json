@@ -28,6 +28,7 @@
     "biome:ci": "biome ci .",
     "biome:fix": "biome check --write .",
     "build": "tsc -b",
+    "build:force": "tsc -b --force",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

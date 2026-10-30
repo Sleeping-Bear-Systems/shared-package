@@ -42,5 +42,6 @@
     ".vscode-insiders",
     ".env",
     ".env.*"
-  ]
+  ],
+  "cSpell.words": ["sleepingbear"]
 }

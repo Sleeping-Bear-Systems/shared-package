@@ -6,6 +6,9 @@
   "description": "",
   "devDependencies": {
     "@biomejs/biome": "^2.6.4",
+    "@tsconfig/node26": "^26.0.1",
+    "@tsconfig/strictest": "^2.0.8",
+    "@types/node": "^26.6.6",
     "typescript": "^7.0.2"
   },
   "homepage": "https://github.com/Sleeping-Bear-Systems/shared-package#readme",
@@ -24,7 +27,8 @@
     "biome:check": "biome check .",
     "biome:ci": "biome ci .",
     "biome:fix": "biome check --write .",
-    "build": "tsc",
+    "build": "tsc -b",
+    "build:force": "tsc -b --force",
     "prepare": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

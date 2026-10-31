@@ -11,12 +11,12 @@
     "@types/node": "^26.6.6",
     "typescript": "^7.0.2"
   },
-  "homepage": "https://github.com/Sleeping-Bear-Systems/shared-package#readme",
-  "keywords": [],
   "files": [
     "dist",
     "src"
   ],
+  "homepage": "https://github.com/Sleeping-Bear-Systems/shared-package#readme",
+  "keywords": [],
   "main": "dist/index.js",
   "name": "@sleepingbear/shared",
   "repository": {
@@ -30,7 +30,7 @@
     "build": "tsc -b",
     "build:force": "tsc -b --force",
     "prepare": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --test src/index.test.ts"
   },
   "type": "module",
   "version": "0.1.0"

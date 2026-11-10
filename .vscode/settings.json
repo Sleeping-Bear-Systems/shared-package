@@ -43,5 +43,5 @@
     ".env",
     ".env.*"
   ],
-  "cSpell.words": ["Datastar", "sleepingbear"]
+  "cSpell.words": ["datastar", "groovylint", "sleepingbear"]
 }

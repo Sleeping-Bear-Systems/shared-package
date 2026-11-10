@@ -21,4 +21,4 @@ This repository builds the `@sleepingbear/shared` package that contains shared c
 
 ### Test
 
-- `npm test` is a placeholder that exits with an error because no tests are configured yet.
+- `npm test` runs the test suite with Node.js's built-in test runner.

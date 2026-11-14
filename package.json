@@ -6,6 +6,7 @@
   "description": "",
   "devDependencies": {
     "@biomejs/biome": "^2.6.4",
+    "@changesets/cli": "^3.0.3",
     "@tsconfig/node26": "^26.0.1",
     "@tsconfig/strictest": "^2.0.8",
     "@types/node": "^26.6.6",
